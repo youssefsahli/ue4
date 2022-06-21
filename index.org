@@ -1,8 +1,14 @@
 #+TITLE: UE4: Dispensation des Médicaments et Autres Produits de Santé
 #+LATEX: \setlength{\parindent}{0pt}
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+* Pédiatrie
 #+INCLUDE: pediatrie.org
+* Analyse d'Ordonnance Pédiatrique
 #+INCLUDE: pediatrie_analyse_ordonnance.org
+* Pharmacovigilance
 #+INCLUDE: pharmacovigilance.org
+* Médicaments à Statut Particulier
 #+INCLUDE: status_particulier.org
+* Compétences et Responsabilités du Pharmacien
 #+INCLUDE: competences_responsabilites.org
+#+AUTHOR: Y. Sahli

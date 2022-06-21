@@ -1,0 +1,656 @@
+% Created 2022-06-21 Tue 14:45
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=grey}
+\hypersetup{colorlinks=true,linkcolor=grey}
+\author{Y. Sahli}
+\date{\today}
+\title{UE4: Dispensation des Médicaments et Autres Produits de Santé}
+\hypersetup{
+ pdfauthor={Y. Sahli},
+ pdftitle={UE4: Dispensation des Médicaments et Autres Produits de Santé},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 28.1 (Org mode 9.5.4)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\setlength{\parindent}{0pt}
+\section{Pédiatrie}
+\label{sec:orgc48c6c3}
+\setlength{\parindent}{0pt}
+\subsection{Dispensation En Pédiatrie}
+\label{sec:orgc717882}
+\subsubsection{Classes d'âge}
+\label{sec:org868a204}
+\begin{center}
+\begin{tabular}{lllll}
+\textbf{Mois/Année} & 0-1m & 1m-2a & 2-12a & 12-15a\\
+\textbf{Classe} & NN\footnotemark & Nourisson & Enfant & Ado\\
+\end{tabular}
+\end{center}\footnotetext[1]{\label{orgfb323b9}Nouveau-né}
+\subsubsection{Demographie}
+\label{sec:org422dcd8}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./Population_européenne.png}
+\caption{La classe 0-16 ans représente 20\% de la population européenne.}
+\end{figure}
+\subsubsection{Place du Médicament en Pédiatrie}
+\label{sec:orge90a564}
+\begin{enumerate}
+\item Rôle de l'ANSM/HAS
+\label{sec:orgf1256ba}
+\begin{itemize}
+\item PIPs \footnote{Plan d'investigation pédiatrique}
+\item Avis scientifiques
+\item AMM
+\begin{itemize}
+\item Accès précoce
+\item Accès compassionnel
+\end{itemize}
+\item Préparations hospitalières pédiatriques
+\end{itemize}
+\item Règlements Pédiatriques Européens
+\label{sec:org72bc998}
+\begin{itemize}
+\item Facilitent le \textbf{développement} et l'\textbf{accès} des médicaments pour la population pédiatrique.
+\item Assurer un haut degré de qualité quand à la recherche, l'évaluation, et l'AMM des médicaments à usage pédiatrique.
+\item Améliorer la mise à disposition d'informations sur l'utilisation des médicaments chez les enfants
+\item Eviter de soumettre la population pédiatrique à des essais cliniques inutiles.
+\end{itemize}
+\end{enumerate}
+\subsubsection{Particularités pharmacocinétiques}
+\label{sec:orgebb8af5}
+\begin{enumerate}
+\item Absorption
+\label{sec:org1a849c3}
+\begin{enumerate}
+\item per os
+\label{sec:org9a3afec}
+\begin{center}
+\begin{tabular}{llll}
+ & NN & Nourrissons & Enfants\\
+\hline
+\textbf{Temps de vidange gastrique} & Retardé & Augmenté & Légèrement augmenté\\
+\textbf{pH gastrique} & 5 & 4-2 & 3\\
+\textbf{Motilité intestinale} & Retardée & Augmentée & Légèrement augmentée\\
+\textbf{Fonction biliaire} & Immature & Normale & Normale\\
+\textbf{Enzymes intestinales: CYP1A1, CYP 3A PgP} & Immature & Immature & Normale\\
+\end{tabular}
+\end{center}
+\uline{Les acides faibles ont une biodisponibilité réduite:} \emph{Phénobarbital, Phénitoïne}
+
+\uline{Les molécules instables en milieu acide, et molécules basiques  ont une biodisponibilité augmentée:} \emph{Benzylpénicilline, Erythromycine}
+\item cutanée
+\label{sec:orgace1d53}
+\begin{itemize}
+\item Couche cornée mince, peu kératinisée
+\item Vascularisation et hydratation abondante
+\item Large surface cutanée
+\end{itemize}
+\(\to\) Résorption cutanée importante: Iode, Vitamine A, Lidocaïne.
+
+\emph{Il faudra faire attention au risque de toxicité}
+\end{enumerate}
+\item Distribution
+\label{sec:orge635646}
+Pour les médicaments hydrophiles:
+\begin{itemize}
+\item On aura un Vd \footnote{Volume de distribution} augmenté, donc une concentration inférieure par rapport à un adulte.
+\end{itemize}
+La dose de charge sera donc relativement plus importante.
+
+\begin{center}
+\begin{tabular}{llllll}
+ & NN & 1 ans & 4 ans & Puberté & Adulte\\
+\hline
+Eau\textsubscript{totale} & 75\% & 60\% &  &  & 60\%\\
+Eau\textsubscript{extracell} & 45\% & 25\% &  & 15\%-20\% & 20\%\\
+Eau\textsubscript{cell} & 33\% & 35\% &  & 40\% & 40\%\\
+Graisses & 15\% & 25\% & 10\% & 18\% & 16\%-18\%\\
+\end{tabular}
+\end{center}
+
+\begin{itemize}
+\item Peu de changement pour les molécules lipophiles
+\item Albumine diminuée: Liaison aux PP\footnote{Protéines plasmatiques} diminuée: \emph{Ceftriaxone, Diazépam, Sulfamides}
+\item BHE \footnote{Barrière hémato-encéphalique} plus perméable: \emph{Molécules neurotoxiques}
+\end{itemize}
+\item Métabolisme
+\label{sec:org249e15d}
+\begin{center}
+\begin{tabular}{lll}
+ & Nouveau-né & Enfant\\
+\hline
+CYP & Diminuée & Augmentée\\
+Clairance & Diminuée & Augmentée\\
+Résorption & Diminuée & Augmentée\\
+Elimination & Diminuée & Augmentée\\
+\hline
+Métabolisme & Hypométaboliseur & Hypermétaboliseur\\
+\hline
+Conseils & Espacer les doses & Augmenter les doses\\
+ & Rapprocher les doses & Diminuer les doses\\
+\end{tabular}
+\end{center}
+\item Elimination
+\label{sec:org547460a}
+\emph{L'élimination tend vers les valeurs adultes à 1 ans.}
+\begin{itemize}
+\item Pour les nourrissons de moins d'un ans:
+\begin{itemize}
+\item Augmentation de la demi-vie
+\item Diminution de la clairance rénale
+\item Toxicité accrue
+\begin{itemize}
+\item \emph{Aminosides}
+\item \emph{Pénicillines}
+\item \emph{Céphalosporines}
+\end{itemize}
+\item Médicaments altérant le DFG\footnote{Débit de filtration glomérulaire}
+\begin{itemize}
+\item AINS
+\item Indométacine
+\item Ibuprofène
+\end{itemize}
+\item Médicaments altérant la maturation rénale
+\begin{itemize}
+\item Corticostéroïdes
+\end{itemize}
+\end{itemize}
+\end{itemize}
+\end{enumerate}
+\subsubsection{Spécificités Néphrologiques}
+\label{sec:orgf4ba982}
+\begin{itemize}
+\item Clairance:
+\begin{itemize}
+\item Le calcul du DFG se fait par la \emph{formule de Schwarz}
+\footnote{\[DFG = k \times \frac{T}{Créatinémie}\]}
+\end{itemize}
+
+\item Diurèse:
+\begin{center}
+\begin{tabular}{llll}
+ & Naissance & 2 ans & 8 ans\\
+\hline
+\textbf{Volume} & 30-60 mL & 1 L & Valeurs Adultes\\
+\end{tabular}
+\end{center}
+\end{itemize}
+\subsubsection{Spécificités hématologiques}
+\label{sec:org4aa6faa}
+\begin{center}
+\begin{tabular}{llll}
+ & Erythrocytes & Leucocytes & Thrombocytes\\
+NN & 18 g/dL & 18 G/L & Adulte\\
+1-3 mois & 10.5 - 13.5 g/dL &  & Adulte\\
+\end{tabular}
+\end{center}
+\subsection{Voies d'Administration}
+\label{sec:orgea6546a}
+\begin{itemize}
+\item IM
+\begin{itemize}
+\item Douloureuse
+\end{itemize}
+\item IV
+\begin{itemize}
+\item Toxicité
+\item Difficile
+\item Iatrogéne
+\item Peu adaptée
+\end{itemize}
+\item Rectale
+\begin{itemize}
+\item Résorption aléatoire
+\end{itemize}
+\item Orale
+\begin{itemize}
+\item Comprimés et gélules à partir de 7 ans
+\item Solutions/suspensions buvables de préférence
+\end{itemize}
+\end{itemize}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./pediatrie_administration.png}
+\end{center}
+\subsection{Posologies}
+\label{sec:org500515d}
+\begin{itemize}
+\item Posologie de l'enfant:
+\[
+  P_{enfant} = \frac{ S_{corporelle} \times D_{adulte} }{1.75}
+  \]
+\item Modifier selon les résultats biologiques:
+\begin{itemize}
+\item Fonctions rénales
+\item Ionogramme sanguin
+\end{itemize}
+\item Par rapport aux indications:
+\end{itemize}
+\subsection{Erreurs d'Administration}
+\label{sec:orgec68cc3}
+\begin{itemize}
+\item IV: 48\% \emph{Facteur 10-100}
+\item Formes buvables: Confusion \uline{mg/mL} et \uline{mg/kg}
+\item Forme galénique non adaptée
+\item Application cutanée: \textbf{passage systémique}
+\end{itemize}
+\subsection{Effets Indésirables}
+\label{sec:org638ed63}
+\subsubsection{Croissance}
+\label{sec:org638e77c}
+\begin{itemize}
+\item Fluoroquinolones: contre-indiquées si < 8 ans \emph{sauf mucoviscidose}
+\item Corticoïdes: ralentissement de la croissance
+\item Tétracyclines: dischromie et hypoplasie dentaire
+\end{itemize}
+\subsubsection{Reye Syndrome}
+\label{sec:org3ea67bf}
+\begin{itemize}
+\item Associé à l'Aspirine si < 16 ans
+\item Description: Atteinte cérébrale non-inflammatoire et hépatique
+\end{itemize}
+\subsubsection{Précautions et Contre-indications}
+\label{sec:orgf280f15}
+\begin{itemize}
+\item Acide benzoïque CI < 2 ans:
+Risque d'ictère car fortement lié aux PP\footnote{Protéines plasmatiques}
+\item Camphre: CI < 30 mois
+Risque de convulsions
+\item Acide borique et borate de Sodium \emph{(Talc, Cold Crean)}: CI < 3 ans
+Risque de convulsions
+\end{itemize}
+\subsection{Formes Pharmaceutiques: Mésusage}
+\label{sec:orgee4a136}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./pedia_galenique.png}
+\end{center}
+\subsubsection{Formes Orales Liquides}
+\label{sec:org3ceb708}
+\begin{itemize}
+\item Flacon multidose
+\item Utilisation de présentation adulte
+\item Instrument de mesure non adapté
+\item Conservation
+\item Absence de date d'ouverture
+\item Prescription en unité différente de l'unité indiquée
+\end{itemize}
+\subsubsection{Formes Sèches}
+\label{sec:org30ee3e5}
+\begin{itemize}
+\item Prescription de demi ou quart de comprimé
+\item Forme galénique inadaptée à l'âge
+\item Déconditionnement de médicament
+\begin{itemize}
+\item Ouverture des gélules
+\item Dispersion dans nourriture semi-solide
+\item Dissolution dans un liquide
+\item Broyage des comprimés
+\item Fractionnement
+\end{itemize}
+\end{itemize}
+\section{Analyse d'Ordonnance Pédiatrique}
+\label{sec:org5af7cb3}
+\setlength{\parindent}{0pt}
+\subsection{Prescription}
+\label{sec:org62a31cc}
+\begin{itemize}
+\item Date de la prescription
+\item Identification du prescripteur
+\item Signature
+\item Identification du service
+\item Identification du patient
+\begin{itemize}
+\item Nom
+\item Prénom
+\item Sexe
+\item DDN\footnote{Date de naissance}
+\item Pédiatrie:
+\begin{itemize}
+\item Poids
+\end{itemize}
+\item Si nécessaire:
+\begin{itemize}
+\item Taille
+\item Surface corporelle
+\end{itemize}
+\end{itemize}
+\item Identification du médicament
+\begin{itemize}
+\item DCI
+\item Galénique
+\item Dosage
+\item Posologie
+\item Administration
+\item Mode d'emploi
+\item Durée de traitement
+\item Allergies
+\end{itemize}
+\end{itemize}
+\subsection{Médicaments}
+\label{sec:orgfad8f2a}
+\begin{itemize}
+\item Indication précise
+\item Bon choix
+\item Posologie correcte
+\begin{itemize}
+\item Surtout si index thérapeutique étroit
+\begin{itemize}
+\item AVK
+\item Acide Valproïque
+\item Théophylline
+\end{itemize}
+\end{itemize}
+\item Interactions
+\begin{itemize}
+\item Pharmacologiques
+\item Physicochimiques
+\end{itemize}
+\item Modalités d'administration:
+\begin{itemize}
+\item Instruments de mesure
+\item Pendant/En dehors des repas
+\item Plans de prise
+\item Conseils
+\end{itemize}
+\item Prescriptions hors-AMM
+\end{itemize}
+\subsection{Algorithme de Validation}
+\label{sec:org5d5dcce}
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=.9\linewidth]{./pedia_validation2.png}
+\caption{L'analyse se fait selon un algorithme de validation spécifique aux populations pédiatriques.}
+\end{figure}
+\subsection{Interactions Médicamenteuses}
+\label{sec:org751ae54}
+\begin{itemize}
+\item Substances actives \(\Leftrightarrow\) substances auxilliaires
+\item Molécules \(\Leftrightarrow\) test biologiques
+\item Molécules \(\Leftrightarrow\) alimentation
+\end{itemize}
+\subsection{Rédiger un Plan de Prise}
+\label{sec:org61742b3}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./plandeprise.png}
+\end{center}
+\section{Pharmacovigilance}
+\label{sec:org81567f5}
+\setlength{\parindent}{0pt}
+\subsection{Phase IV}
+\label{sec:orgd0f9eb3}
+La phase IV est la réévaluation de la sécurité et de l'efficacité d'un médicament après sa commercialisation.
+\subsubsection{Objectifs}
+\label{sec:orge14ba58}
+\begin{itemize}
+\item Recenser les EI \footnote{Effets indésirables}
+\item Identifier les IAM \footnote{Intéractions médicamenteuses}
+\item Evaluer et quantifier sur de grandes populations, en situation réelle, l'efficacité et la tolérance des médicaments.
+\item Vérifier et modifier si nécessaire les indications du médicament.
+\end{itemize}
+\subsection{Pharmacovigilance}
+\label{sec:org1df5e75}
+\subsubsection{Médicaments Concernés}
+\label{sec:orgf0987ca}
+\begin{itemize}
+\item AMM
+\item ATU
+\item MDS
+\item Homéopatie
+\end{itemize}
+\subsubsection{A Qui Déclarer?}
+\label{sec:org51df0ef}
+\begin{itemize}
+\item CRPV \footnote{Centre Régional de Pharmacovigilance}
+\item Industrie pharmaceutique (facultative)
+\end{itemize}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./crpv.png}
+\end{center}
+\subsubsection{Evalutation des Notifications}
+\label{sec:orgb7bf1fe}
+\begin{enumerate}
+\item Imputabilités
+\label{sec:org1f763bb}
+\begin{center}
+\includegraphics[width=.9\linewidth]{./imputabilite.png}
+\end{center}
+\begin{enumerate}
+\item Intrinsèque
+\label{sec:orga3199b4}
+\begin{itemize}
+\item critère chronologique
+\item critère sémiologique
+\end{itemize}
+\item Extrinsèque
+\label{sec:org70b6752}
+\begin{itemize}
+\item critère bibliographique
+\end{itemize}
+\end{enumerate}
+\end{enumerate}
+\section{Médicaments à Statut Particulier}
+\label{sec:org7aa9080}
+\setlength{\parindent}{0pt}
+
+\subsection{Stupéfiants}
+\label{sec:orge009701}
+Une prescription de stupéfiant doit contenir la dose et la posologie.
+Le patient à \textbf{72 heures} pour recevoir une dispensation complète de son traitement\footnote{Sinon il faudra déconditionner}.
+
+Le pharmacien doit les stocker dans une armoire \textbf{fermée à clef différente} de celle des stupéfiants détenus à l'officine
+
+Le transport à l'étranger pour un patient doit se faire par une \textbf{autorisation de transport de l'ARS locale au médecin prescripteur}.
+
+La morphine injectable peut être prescripte pour \textbf{7 jours} maximum.
+
+La délivrance de FENTANYL \emph{adm: patch, buccale, ou nasale} pour les douleurs chroniques doit être fractionnée \textbf{sauf mention expresse du prescripteur}
+
+La Méthadone peut être prescrite jusqu'à \textbf{28 jours}, et délivrée par fractions de \textbf{7 jours} sauf mention expresse du prescripteur.
+
+\subsubsection{Ordonnance}
+\label{sec:orgd023c98}
+\begin{itemize}
+\item Sécurisée
+\item Doit afficher \emph{en toutes lettres}:
+\begin{itemize}
+\item le nombre d'unité par prise
+\item Nombre de prise
+\item dosage
+\end{itemize}
+\end{itemize}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ordo_securisee.png}
+\end{center}
+
+\subsubsection{Délivrance}
+\label{sec:org2c03132}
+\begin{center}
+\begin{tabular}{lll}
+DCI & Fractionnement & Exemples\\
+\hline
+Fentanyl \emph{transdermique} & 14 j & Durogesic, Matrifen\\
+Fentanyl \emph{transmuqueuse} & 7 j & Actiq, Effentora, Abstral, Instanyl, Pecfent\\
+Methadone & 7 j & \\
+\end{tabular}
+\end{center}
+
+\subsubsection{Mentions à Apposer}
+\label{sec:org2ae19c8}
+\begin{itemize}
+\item Tampon de l'officine
+\item N° enregistrement sur l'ordonnancier
+\item Date de délivrance
+\item Nom de la spécialité délivrée
+\item Quantité délivrée en unité de prise
+\end{itemize}
+
+\subsubsection{Comptabilité et Traçabilité}
+\label{sec:org86ffab3}
+\begin{itemize}
+\item Comptabilité journalière
+\item Balance mensuelle
+\item Inventaire annuel du stock
+\item Conservation des ordonnances pendant 10 ans
+\end{itemize}
+
+\subsection{Assimilés Stupéfiants}
+\label{sec:org081a32c}
+Ils sont prescrits sur une ordonnance sécurisée, et sont stockés dans un lieu avec accès restreint.
+Le patient à 3 mois pour reçevoir la totalité de sa prescription\footnote{Pas de déconditionnement possible.}.
+
+La durée de prescription maximale dépend du médicament, fixée par arrêté ministériel.
+
+Tous les AS \footnote{Assimilé stupéfiant} ne sont pas renouvellables.
+
+\subsection{Anxiolytiques et Hypnotiques}
+\label{sec:orgfde35f5}
+
+\subsubsection{Première délivrance}
+\label{sec:orgaf78f16}
+Elle se fait uniquement sur une ordonnance datant de moins de 3 mois.
+
+\subsubsection{Prescription et Règles de Délivrance}
+\label{sec:org44108b6}
+\begin{center}
+\begin{tabular}{ll}
+Hypnotiques & 4 semaines\\
+Anxiolytiques & 12 semaines\\
+\end{tabular}
+\end{center}
+
+\emph{Il est interdit de renouveller de manière exceptionnelle un anxiolytique ou hypnotique}
+
+\subsection{Médicaments d'Exception}
+\label{sec:org273b1ac}
+Ce sont des spécialités remboursées uniquement pour certaines indications.
+Leur prescription se fait alors sur une ordonnance 4 volets\footnote{Conforme au Cerfa 12708*02}.
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./exception.png}
+\end{center}
+
+\subsubsection{Mentions à Apposer}
+\label{sec:orgdac8f94}
+\begin{itemize}
+\item Tampon de l'officine
+\item N° RPPS du dispensateur
+\item Date de délivrance
+\item Nom de la spécialité délivrée
+\item Quantité délivrée en unité de prise
+\end{itemize}
+
+
+\subsubsection{Archivage}
+\label{sec:org821feb5}
+\begin{itemize}
+\item Volet 4 archivé par le pharmacien
+\item Durée de conservation de 3 ans.
+\end{itemize}
+
+\subsection{Prescription Compassionnelle}
+\label{sec:org694a8cb}
+Un CPC\footnote{Prescription Compassionnelle} peut être mis en place pour une durée maximale de 3 ans.
+La spécialité sela alors prise en charge par la sécurité sociale.
+
+Le CPC permet d'encadrer de manière ponctuelle l'utilisation d'un médicament \textbf{hors AMM}.
+Au regard des données recueillies, le CPC peut conduire à autoriser la modification de l'AMM du médicament.
+
+\subsection{Prescription Hospitalière}
+\label{sec:org2545de9}
+
+\subsubsection{Prescription Initiale Hospitalière}
+\label{sec:orga2bb01a}
+La dispensation se fait sur présentation \textbf{concomitante} de l'ordonnance hospitalière initiale.
+Le renouvellement se fait par tout prescripteur \textbf{sauf restriction particulières (spécialistes)}
+
+\subsubsection{Prescription Réservée à Certains Spécialites}
+\label{sec:org5c6f2b8}
+Il est important de s'assurer de l'habilitation du prescripteur.
+
+\subsection{Médicaments Nécessitant une Surveillance Particulière}
+\label{sec:orgd833136}
+Les restrictions sont dues aux potentiels effets indésirables graves qui peuvent apparaître lors de l'emploi de la spécialité.
+
+\subsubsection{Condition de Prescription}
+\label{sec:org0f4f382}
+Subordonnée à la réalisation d'examens périodiques du patient.
+La mise à disposition d'un support d'information/de suivi de traitement peut être \emph{imposée} lors de la mise sur le marché du médicament.
+
+\subsubsection{Conditions de Délivrance}
+\label{sec:org7b3042f}
+Le pharmacien doit s'assurer l'habilitation du prescripteur à prescrire le produit, ou le cas échéant de la présence sur l'ordonnance des mentions obligatoires prévues par l'AMM.
+
+\subsection{Médicaments Dérivés du Sang}
+\label{sec:orge8be56c}
+Prescription: ordonnance classique
+
+La dispensation d'un MDS est retranscrite dans un registre paraphé par le maire ou le commissaire de police.
+
+\subsubsection{Traçabilité}
+\label{sec:orge41dc86}
+Les informations suivantes doivent figurer sur le registre spécial :
+\begin{itemize}
+\item Nom et adresse du prescripteur
+\item Nom, adresse et date de naissance du patient
+\item Date de délivrance
+\item Dénomination du médicament
+\item Quantité délivrée
+\item Les informations figurant sur l'étiquette de traçabilité détachable du conditionnement
+\end{itemize}
+extérieur
+
+\subsection{Médicaments à Usage Professionnel}
+\label{sec:org05e3478}
+L'AMM peut prévoir la délivrance d'un produit qu'à des professionnels de santé habilités à la prescrire et à l'administrer. Cette sécurité est liée à la nécessité d'une détention et d'une manipulation exclusive par un professionnel de santé.
+
+\subsubsection{Ordonnance}
+\label{sec:org88839d3}
+\begin{itemize}
+\item Nom
+\item Qualité
+\item RPPS
+\item Adresse
+\item Date
+
+En plus,
+\item Dénomination
+\item Quantité
+\item Mention: "Usage Professionnel"
+\end{itemize}
+\section{Compétences et Responsabilités du Pharmacien}
+\label{sec:org08ef6c9}
+\setlength{\parindent}{0pt}
+\subsection{L'Ordre National des Pharmaciens}
+\label{sec:org3137de7}
+
+\begin{center}
+\includegraphics[width=.9\linewidth]{./ordre.png}
+\end{center}
+\subsubsection{Missions}
+\label{sec:orgf32af6d}
+\begin{itemize}
+\item Garantir le respect des devoirs professionnels
+\item Protéger l'intégrité et l'indépendance de la profession
+\item Garantir la compétence des pharmaciens
+\item Contribuer à promouvoir la santé publique, la qualité des soins notamment la sécurité des actes professionnels.
+\item S'assurer que l'ensemble des pharmaciens respecte son obligation de développement professionnel continu
+\end{itemize}
+\end{document}

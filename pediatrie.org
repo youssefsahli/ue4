@@ -1,6 +1,4 @@
-#+AUTHOR: Y. Sahli
 #+EMAIL: Youssef.Sahli@etu.uca.fr
-
 #+LATEX: \setlength{\parindent}{0pt}
 #+latex_header: \hypersetup{colorlinks=true,linkcolor=grey}
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
@@ -27,6 +25,7 @@
 ** Particularités pharmacocinétiques
 *** Absorption
 **** per os
+#+BEGIN_CENTER
 |                                            | NN       | Nourrissons | Enfants              |
 |--------------------------------------------+----------+-------------+----------------------|
 | *Temps de vidange gastrique*               | Retardé  | Augmenté    | Légèrement augmenté  |
@@ -34,6 +33,7 @@
 | *Motilité intestinale*                     | Retardée | Augmentée   | Légèrement augmentée |
 | *Fonction biliaire*                        | Immature | Normale     | Normale              |
 | *Enzymes intestinales: CYP1A1, CYP 3A PgP* | Immature | Immature    | Normale              |
+#+END_CENTER
 _Les acides faibles ont une biodisponibilité réduite:_ /Phénobarbital, Phénitoïne/
 
 _Les molécules instables en milieu acide, et molécules basiques  ont une biodisponibilité augmentée:_ /Benzylpénicilline, Erythromycine/

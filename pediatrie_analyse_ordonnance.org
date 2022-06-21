@@ -1,4 +1,3 @@
-#+AUTHOR: Y. Sahli
 #+EMAIL: Youssef.Sahli@etu.uca.fr
 #+LATEX: \setlength{\parindent}{0pt}
 #+latex_header: \hypersetup{colorlinks=true,linkcolor=grey}
