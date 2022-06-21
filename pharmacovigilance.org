@@ -1,0 +1,27 @@
+#+LATEX: \setlength{\parindent}{0pt}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+* Phase IV
+La phase IV est la réévaluation de la sécurité et de l'efficacité d'un médicament après sa commercialisation.
+** Objectifs
+- Recenser les EI [fn:: Effets indésirables]
+- Identifier les IAM [fn:: Intéractions médicamenteuses]
+- Evaluer et quantifier sur de grandes populations, en situation réelle, l'efficacité et la tolérance des médicaments.
+- Vérifier et modifier si nécessaire les indications du médicament.
+* Pharmacovigilance
+** Médicaments Concernés
+- AMM
+- ATU
+- MDS
+- Homéopatie
+** A Qui Déclarer?
+- CRPV [fn:: Centre Régional de Pharmacovigilance]
+- Industrie pharmaceutique (facultative)
+[[./crpv.png]]
+** Evalutation des Notifications
+*** Imputabilités
+[[./imputabilite.png]]
+**** Intrinsèque
+- critère chronologique
+- critère sémiologique
+**** Extrinsèque
+- critère bibliographique

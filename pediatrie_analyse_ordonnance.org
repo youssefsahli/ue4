@@ -1,0 +1,55 @@
+#+AUTHOR: Y. Sahli
+#+EMAIL: Youssef.Sahli@etu.uca.fr
+#+LATEX: \setlength{\parindent}{0pt}
+#+latex_header: \hypersetup{colorlinks=true,linkcolor=grey}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+* Prescription
+- Date de la prescription
+- Identification du prescripteur
+- Signature
+- Identification du service
+- Identification du patient
+  - Nom
+  - Prénom
+  - Sexe
+  - DDN[fn:: Date de naissance]
+  - Pédiatrie:
+    + Poids
+  - Si nécessaire:
+    + Taille
+    + Surface corporelle
+- Identification du médicament
+  - DCI
+  - Galénique
+  - Dosage
+  - Posologie
+  - Administration
+  - Mode d'emploi
+  - Durée de traitement
+  - Allergies
+* Médicaments
++ Indication précise
++ Bon choix
++ Posologie correcte
+  + Surtout si index thérapeutique étroit
+    - AVK
+    - Acide Valproïque
+    - Théophylline
++ Interactions
+  - Pharmacologiques
+  - Physicochimiques
++ Modalités d'administration:
+  - Instruments de mesure
+  - Pendant/En dehors des repas
+  - Plans de prise
+  - Conseils
++ Prescriptions hors-AMM
+* Algorithme de Validation
+#+CAPTION: L'analyse se fait selon un algorithme de validation spécifique aux populations pédiatriques.
+[[./pedia_validation2.png]]
+* Interactions Médicamenteuses
+- Substances actives \Leftrightarrow substances auxilliaires
+- Molécules \Leftrightarrow test biologiques
+- Molécules \Leftrightarrow alimentation
+* Rédiger un Plan de Prise
+[[./plandeprise.png]]

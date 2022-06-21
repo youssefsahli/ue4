@@ -1,0 +1,8 @@
+#+TITLE: UE4: Dispensation des Médicaments et Autres Produits de Santé
+#+LATEX: \setlength{\parindent}{0pt}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+INCLUDE: pediatrie.org
+#+INCLUDE: pediatrie_analyse_ordonnance.org
+#+INCLUDE: pharmacovigilance.org
+#+INCLUDE: status_particulier.org
+#+INCLUDE: competences_responsabilites.org

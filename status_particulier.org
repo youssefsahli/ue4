@@ -1,0 +1,139 @@
+#+LATEX: \setlength{\parindent}{0pt}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* Stupéfiants
+Une prescription de stupéfiant doit contenir la dose et la posologie.
+Le patient à *72 heures* pour recevoir une dispensation complète de son traitement[fn:: Sinon il faudra déconditionner].
+
+Le pharmacien doit les stocker dans une armoire *fermée à clef différente* de celle des stupéfiants détenus à l'officine
+
+Le transport à l'étranger pour un patient doit se faire par une *autorisation de transport de l'ARS locale au médecin prescripteur*.
+
+La morphine injectable peut être prescripte pour *7 jours* maximum.
+
+La délivrance de FENTANYL /adm: patch, buccale, ou nasale/ pour les douleurs chroniques doit être fractionnée *sauf mention expresse du prescripteur*
+
+La Méthadone peut être prescrite jusqu'à *28 jours*, et délivrée par fractions de *7 jours* sauf mention expresse du prescripteur.
+
+** Ordonnance
+- Sécurisée
+- Doit afficher /en toutes lettres/:
+  - le nombre d'unité par prise
+  - Nombre de prise
+  - dosage
+
+[[./ordo_securisee.png]]
+
+** Délivrance
+| DCI                      | Fractionnement | Exemples                                     |
+|--------------------------+----------------+----------------------------------------------|
+| Fentanyl /transdermique/ | 14 j           | Durogesic, Matrifen                          |
+| Fentanyl /transmuqueuse/ | 7 j            | Actiq, Effentora, Abstral, Instanyl, Pecfent |
+| Methadone                | 7 j            |                                              |
+
+** Mentions à Apposer
+- Tampon de l'officine
+- N° enregistrement sur l'ordonnancier
+- Date de délivrance
+- Nom de la spécialité délivrée
+- Quantité délivrée en unité de prise
+
+** Comptabilité et Traçabilité
+- Comptabilité journalière
+- Balance mensuelle
+- Inventaire annuel du stock
+- Conservation des ordonnances pendant 10 ans
+
+* Assimilés Stupéfiants
+Ils sont prescrits sur une ordonnance sécurisée, et sont stockés dans un lieu avec accès restreint.
+Le patient à 3 mois pour reçevoir la totalité de sa prescription[fn:: Pas de déconditionnement possible.].
+
+La durée de prescription maximale dépend du médicament, fixée par arrêté ministériel.
+
+Tous les AS [fn:: Assimilé stupéfiant] ne sont pas renouvellables.
+
+* Anxiolytiques et Hypnotiques
+
+** Première délivrance
+Elle se fait uniquement sur une ordonnance datant de moins de 3 mois.
+
+** Prescription et Règles de Délivrance
+| Hypnotiques   | 4 semaines  |
+| Anxiolytiques | 12 semaines |
+
+/Il est interdit de renouveller de manière exceptionnelle un anxiolytique ou hypnotique/
+
+* Médicaments d'Exception
+Ce sont des spécialités remboursées uniquement pour certaines indications.
+Leur prescription se fait alors sur une ordonnance 4 volets[fn:: Conforme au Cerfa 12708*02].
+
+[[./exception.png]]
+
+** Mentions à Apposer
+- Tampon de l'officine
+- N° RPPS du dispensateur
+- Date de délivrance
+- Nom de la spécialité délivrée
+- Quantité délivrée en unité de prise
+
+  
+** Archivage
+- Volet 4 archivé par le pharmacien
+- Durée de conservation de 3 ans.
+
+* Prescription Compassionnelle
+Un CPC[fn:: Prescription Compassionnelle] peut être mis en place pour une durée maximale de 3 ans.
+La spécialité sela alors prise en charge par la sécurité sociale.
+
+Le CPC permet d'encadrer de manière ponctuelle l'utilisation d'un médicament *hors AMM*.
+Au regard des données recueillies, le CPC peut conduire à autoriser la modification de l'AMM du médicament.
+
+* Prescription Hospitalière
+
+** Prescription Initiale Hospitalière
+La dispensation se fait sur présentation *concomitante* de l'ordonnance hospitalière initiale.
+Le renouvellement se fait par tout prescripteur *sauf restriction particulières (spécialistes)*
+
+** Prescription Réservée à Certains Spécialites
+Il est important de s'assurer de l'habilitation du prescripteur.
+
+* Médicaments Nécessitant une Surveillance Particulière
+Les restrictions sont dues aux potentiels effets indésirables graves qui peuvent apparaître lors de l'emploi de la spécialité.
+
+** Condition de Prescription
+Subordonnée à la réalisation d'examens périodiques du patient.
+La mise à disposition d'un support d'information/de suivi de traitement peut être /imposée/ lors de la mise sur le marché du médicament.
+
+** Conditions de Délivrance
+Le pharmacien doit s'assurer l'habilitation du prescripteur à prescrire le produit, ou le cas échéant de la présence sur l'ordonnance des mentions obligatoires prévues par l'AMM.
+
+* Médicaments Dérivés du Sang
+Prescription: ordonnance classique
+
+La dispensation d'un MDS est retranscrite dans un registre paraphé par le maire ou le commissaire de police.
+
+** Traçabilité
+Les informations suivantes doivent figurer sur le registre spécial :
+- Nom et adresse du prescripteur
+- Nom, adresse et date de naissance du patient
+- Date de délivrance
+- Dénomination du médicament
+- Quantité délivrée
+- Les informations figurant sur l'étiquette de traçabilité détachable du conditionnement
+extérieur
+
+* Médicaments à Usage Professionnel
+L'AMM peut prévoir la délivrance d'un produit qu'à des professionnels de santé habilités à la prescrire et à l'administrer. Cette sécurité est liée à la nécessité d'une détention et d'une manipulation exclusive par un professionnel de santé.
+
+** Ordonnance
+- Nom
+- Qualité
+- RPPS
+- Adresse
+- Date
+
+  En plus,
+- Dénomination
+- Quantité
+- Mention: "Usage Professionnel"
+

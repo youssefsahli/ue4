@@ -1,0 +1,12 @@
+#+LATEX: \setlength{\parindent}{0pt}
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+* L'Ordre National des Pharmaciens
+
+[[./ordre.png]]
+** Missions
+- Garantir le respect des devoirs professionnels
+- Protéger l'intégrité et l'indépendance de la profession
+- Garantir la compétence des pharmaciens
+- Contribuer à promouvoir la santé publique, la qualité des soins notamment la sécurité des actes professionnels.
+- S'assurer que l'ensemble des pharmaciens respecte son obligation de développement professionnel continu
+
