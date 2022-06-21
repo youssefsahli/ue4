@@ -25,15 +25,14 @@
 ** Particularités pharmacocinétiques
 *** Absorption
 **** per os
-#+BEGIN_CENTER
-|                                            | NN       | Nourrissons | Enfants              |
-|--------------------------------------------+----------+-------------+----------------------|
-| *Temps de vidange gastrique*               | Retardé  | Augmenté    | Légèrement augmenté  |
-| *pH gastrique*                             | 5        | 4-2         | 3                    |
-| *Motilité intestinale*                     | Retardée | Augmentée   | Légèrement augmentée |
-| *Fonction biliaire*                        | Immature | Normale     | Normale              |
-| *Enzymes intestinales: CYP1A1, CYP 3A PgP* | Immature | Immature    | Normale              |
-#+END_CENTER
+#+ATTR_LATEX: :placement [h] :center t
+|                                                | NN       | Nourrissons | Enfants              |
+|------------------------------------------------+----------+-------------+----------------------|
+| *Temps de vidange gastrique*                   | Retardé  | Augmenté    | Légèrement augmenté  |
+| *pH gastrique*                                 | 5        | 4-2         | 3                    |
+| *Motilité intestinale*                         | Retardée | Augmentée   | Légèrement augmentée |
+| *Fonction biliaire*                            | Immature | Normale     | Normale              |
+| *Enzymes intestinales*[fn::CYP1A1, CYP 3A PgP] | Immature | Immature    | Normale              |
 _Les acides faibles ont une biodisponibilité réduite:_ /Phénobarbital, Phénitoïne/
 
 _Les molécules instables en milieu acide, et molécules basiques  ont une biodisponibilité augmentée:_ /Benzylpénicilline, Erythromycine/
@@ -49,12 +48,12 @@ Pour les médicaments hydrophiles:
 - On aura un Vd [fn:: Volume de distribution] augmenté, donc une concentration inférieure par rapport à un adulte.
 La dose de charge sera donc relativement plus importante.
 
-|              |  NN | 1 ans | 4 ans | Puberté |  Adulte |
-|--------------+-----+-------+-------+---------+---------|
+|               |  NN | 1 ans | 4 ans | Puberté |  Adulte |
+|---------------+-----+-------+-------+---------+---------|
 | Eau_totale    | 75% |   60% |       |         |     60% |
 | Eau_extracell | 45% |   25% |       | 15%-20% |     20% |
 | Eau_cell      | 33% |   35% |       |     40% |     40% |
-| Graisses     | 15% |   25% |   10% |     18% | 16%-18% |
+| Graisses      | 15% |   25% |   10% |     18% | 16%-18% |
 
 - Peu de changement pour les molécules lipophiles
 - Albumine diminuée: Liaison aux PP[fn:: Protéines plasmatiques] diminuée: /Ceftriaxone, Diazépam, Sulfamides/
