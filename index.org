@@ -1,6 +1,13 @@
 #+TITLE: UE4: Dispensation des Médicaments et Autres Produits de Santé
 #+LATEX: \setlength{\parindent}{0pt}
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+#+HTML: Literal HTML code for export
+
+#+BEGIN_EXPORT html
+  <a href="index.pdf" download>Download link</a>
+#+END_EXPORT
+
 * Pédiatrie
 #+INCLUDE: pediatrie.org
 * Analyse d'Ordonnance Pédiatrique
